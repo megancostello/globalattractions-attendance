@@ -27,7 +27,6 @@ function filterData(category) {
 	 * - the max. length of 'data' is 5
 	 *
 	 * **************************************************/
-    //console.log('attractions is ', attractions);
     
     if (category != 'all') {
         console.log('category is ', category);
@@ -53,3 +52,4 @@ function handler(event) {
 let elem = document.querySelector('#attraction-category');
 console.log('elem is ', elem);
 elem.addEventListener('change', handler);
+console.log('complete');
