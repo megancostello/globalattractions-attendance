@@ -2,7 +2,7 @@
 
 let attractions;
 
-
+//test to make sure changes updating
 fetch('/attractions.json')
 .then(response => response.json())
 .then(data => {
