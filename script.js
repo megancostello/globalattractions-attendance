@@ -3,7 +3,7 @@
 let attractions;
 
 //test to make sure changes updating
-fetch('/attractions.json')
+fetch('/globalattractions-attendance/attractions.json')
 .then(response => response.json())
 .then(data => {
         attractions = data;
