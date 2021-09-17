@@ -49,11 +49,11 @@ body {
   /****************/
   
   .bar {
-    fill: #3C948B;
+    fill: #3c7b94;
   }
   
   .bar:hover {
-    fill: #327972;
+    fill: #325979;
   }
   
   .axis {
